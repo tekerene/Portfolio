@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: antiquewhite;
+}
+.main-section {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 710px;
+    padding-top: 100px;
+
+}
+.port-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 300px;
+    align-items: center ;
+    margin-top: 10px;
+}
+
+.user {
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    margin-left: 300px;
+}
+.user li {
+list-style: none;
+}
+.person {
+    padding-right: 100px;
+    display: table;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 50vh;
+    background: cyan;
+   
+}
+.image-name {
+    text-align: center;
+    
+}
+.list {
+    margin: 12px;
+    font-size: 30px;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    padding: 10px;
+
+}
