@@ -5,22 +5,6 @@ body {
     min-height: 100%;
     background-color: antiquewhite;
 }
-.main-section {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 710px;
-    padding-top: 100px;
-
-}
-.port-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-left: 300px;
-    align-items: center ;
-    margin-top: 10px;
-}
 
 .user {
     padding: 10px;
@@ -31,16 +15,14 @@ body {
 .user li {
 list-style: none;
 }
-.person {
+/* .person {
     padding-right: 100px;
     display: table;
     justify-content: center;
     align-items: center;
     width: 100vh;
-    height: 50vh;
-    background: cyan;
-   
-}
+    height: 50vh; */
+
 .image-name {
     text-align: center;
     
@@ -54,4 +36,33 @@ footer {
     width: 100%;
     padding: 10px;
 
+}
+.main-pic {
+background: cyan;
+width: 70%;
+min-height: 340px;
+display:  grid;
+justify-content: center;
+margin: 2em  auto;
+border-bottom: 50%;
+} 
+.profile-pic {
+    width: 250px;
+    height: 200px;
+    margin-top: 5px;
+    border-radius: 20%;
+}
+.nav-link {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.list-group {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.links {
+    margin: 0,7em auto;
 }
